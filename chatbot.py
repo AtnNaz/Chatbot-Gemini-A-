@@ -1,5 +1,5 @@
 import google.generativeai as genai
-genai.configure(api_key="AIzaSyCqzg8gsPatLWudhFOr7anQHc2q6ifTvAg")
+genai.configure(api_key="YOUR APİ KEY")
 model = genai.GenerativeModel('gemini-pro')
 chat = model.start_chat(history=[])
 while True:
