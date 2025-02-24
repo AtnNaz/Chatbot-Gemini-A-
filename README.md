@@ -2,8 +2,11 @@
 requirements   
 
 pip install -q -U google-generativeai
+
 pip install SpeechRecognition
+
 pip install gTTS
+
 pip install playsound
 
 use  
